@@ -1,3 +1,9 @@
+// Drawing tool for school project
+// © Federica Capotosti for the course SEI2014 @ UnirSM  
+// Didactic purpose, MIT License, March 2014, San Marino
+
+
+
 size(1020, 680);
 noStroke();
 //sfondo viola 
