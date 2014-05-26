@@ -1,3 +1,12 @@
+// Drawing tool for school project
+// © Federica Capotosti for the course SEI2014 @ UnirSM  
+// Didactic purpose, MIT License, March 2014, San Marino
+
+
+
+
+
+
 // P_2_3_1_02.pde
 // 
 // Generative Gestaltung, ISBN: 978-3-87439-759-9
