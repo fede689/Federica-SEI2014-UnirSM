@@ -117,8 +117,16 @@ void keyReleased() {
   }
 
   // r g b alpha prendere "a"
-  if (key == 'a') col = color(random(255),random(255),random(255),random(80,150));
+  //if (key == 'a') col = color(random(255),random(255),random(255),random(80,150));
 
+
+//default colors from 1 to 4 
+  if (key == '1') col = color(181,157,0,100);
+  if (key == '2') col = color(0,130,164,100);
+  if (key == '3') col = color(87,35,129,100);
+  if (key == '4') col = color(197,0,123,100);
+  
+  
   // load svg for line module
   if (key=='5') lineModule = null;
   if (key=='6') lineModule = loadShape("02.svg");
@@ -162,6 +170,20 @@ String timestamp() {
   Calendar now = Calendar.getInstance();
   return String.format("%1$ty%1$tm%1$td_%1$tH%1$tM%1$tS", now);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
